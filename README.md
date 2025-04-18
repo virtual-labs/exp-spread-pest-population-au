@@ -1,24 +1,20 @@
+
 ## Introduction
 
 
-<b>Discipline | <b>Fill your discipline name here
+<b>Discipline | <b>Biotechnology and Biomedical Engineering
 :--|:--|
-<b> Lab | <b> Fill your lab name here
-<b> Experiment|     <b> Fill your experiment name and number here
+<b> Lab | <b>Population ecology Virtual Lab I 
+<b> Experiment|     <b> Spread of a Pest Population - Population Invasion
+
 
 ### About the Experiment 
 
-Fill a brief description of this experiment here
+The objective of this experiment is to explore the dynamics of pest population invasion in a given ecosystem. By simulating the spread of a pest species over time, participants will gain insights into the factors influencing population growth, distribution patterns, and ecological interactions. This experiment allows users to manipulate variables such as reproduction rate, dispersal distance, and environmental resistance to observe their impact on the rate of invasion. Through this virtual lab, students will understand the mathematical models behind pest population dynamics and the potential consequences for ecological systems and agricultural environments.
 
-<b>Name of Developer | <b> Fill the name of experiment owner here 
+<b>Name of Developer | <b> Dr. Shyam Diwakar 
 :--|:--|
-<b> Institute | <b>  
-<b> Email id|     <b>  
-<b> Department |  
+<b> Institute | <b>  Amrita Vishwa Vidyapeetham
+<b> Email id|     <b>  shyam@amrita.edu
+<b> Department |  Amrita Mind Brain Center
 
-### Contributors List
-
-SrNo | Name | Faculty or Student | Department| Institute | Email id
-:--|:--|:--|:--|:--|:--|
-1 | . | . | . | . | .
-2 | . | . | . | . | .
