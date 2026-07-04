@@ -1,0 +1,43 @@
+
+/home/runner/work/exp-spread-pest-population-au/exp-spread-pest-population-au/experiment/simulation/js/main.js
+   64:10  warning  'hab' is not defined                     no-undef
+   64:28  warning  'years' is not defined                   no-undef
+   64:48  warning  'estab' is not defined                   no-undef
+   65:11  warning  'init' is not defined                    no-undef
+   65:29  warning  'disp' is not defined                    no-undef
+   65:47  warning  'rate' is not defined                    no-undef
+  100:3   warning  'v_hab' is not defined                   no-undef
+  100:21  warning  'hab' is not defined                     no-undef
+  100:32  warning  'v_years' is not defined                 no-undef
+  100:52  warning  'years' is not defined                   no-undef
+  100:65  warning  'v_estab' is not defined                 no-undef
+  100:85  warning  'estab' is not defined                   no-undef
+  101:3   warning  'v_init' is not defined                  no-undef
+  101:22  warning  'init' is not defined                    no-undef
+  101:34  warning  'v_disp' is not defined                  no-undef
+  101:55  warning  'disp' is not defined                    no-undef
+  102:3   warning  'v_rate' is not defined                  no-undef
+  102:24  warning  'rate' is not defined                    no-undef
+  104:10  warning  'resetSim' is defined but never used     no-unused-vars
+  105:3   warning  'hab' is not defined                     no-undef
+  105:17  warning  'years' is not defined                   no-undef
+  105:32  warning  'estab' is not defined                   no-undef
+  105:47  warning  'init' is not defined                    no-undef
+  105:61  warning  'disp' is not defined                    no-undef
+  105:76  warning  'rate' is not defined                    no-undef
+  112:10  warning  'downloadPNG' is defined but never used  no-unused-vars
+  120:10  warning  'downloadCSV' is defined but never used  no-unused-vars
+  125:10  warning  'saveRun' is defined but never used      no-unused-vars
+  128:10  warning  'loadRun' is defined but never used      no-unused-vars
+  132:3   warning  'hab' is not defined                     no-undef
+  132:19  warning  'years' is not defined                   no-undef
+  132:39  warning  'estab' is not defined                   no-undef
+  132:59  warning  'init' is not defined                    no-undef
+  132:77  warning  'disp' is not defined                    no-undef
+  132:95  warning  'rate' is not defined                    no-undef
+  147:12  warning  'X' is assigned a value but never used   no-unused-vars
+  147:14  warning  'Y' is assigned a value but never used   no-unused-vars
+  165:10  warning  'toggleFS' is defined but never used     no-unused-vars
+
+✖ 38 problems (0 errors, 38 warnings)
+
