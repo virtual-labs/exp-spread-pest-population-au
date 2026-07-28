@@ -3,26 +3,26 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "In a continuous population growth model, population growth is primarily determined by:",
+      "question": "What do invasive species include?",
       "answers": {
-        "a": "Carrying capacity (K)",
-        "b": "Instantaneous per capita growth rate (r)",
-        "c": "Competition coefficient (α)",
-        "d": "Colonization rate (c)"
+        "a": "Mostly non-native species.",
+        "b": "Mostly native species.",
+        "c": "Both native and non-native species.",
+        "d": "None of the above."
       },
  
-      "correctAnswer": "b",
+      "correctAnswer": "a",
       "difficulty": "beginner"
     },   
 
 
     {
-      "question": "2. The geometric growth factor (R) in the discrete population growth model is calculated as:",
+      "question": "2. Why is it difficult to identify the invasion by Asian Long Horned Beetle at an early stage?",
       "answers": {
-        "a": "Birth rate + Death rate",
-        "b": "Birth rate − Death rate",
-        "c": "1 + (Birth rate − Death rate)",
-        "d": "Birth rate × Death rate"
+        "a": "They come only at night (nocturnal species)",
+        "b": "They hide in the crevices of the trees.",
+        "c": "They burrow deep inside the heartwood of a tree.",
+        "d": "They are too small to identify with naked eye."
       },
       
       "correctAnswer": "c",
@@ -32,12 +32,12 @@
 
     
     {
-      "question": "3. What is meant by exponential population growth? ",
+      "question": "3. How was the Asian Long Horned Beetle transported from China to North America?",
       "answers": {
-        "a": "Population growth limited by carrying capacity",
-        "b": "Population growth at a constant percentage rate when resources are unlimited",
-        "c": "Population growth controlled by predator abundance",
-        "d": "Population growth that eventually becomes zero"
+        "a": "Through shipping goods.",
+        "b": "Through wood packing material.",
+        "c": "Through natural dispersal.",
+        "d": "None."
       },
       
       "correctAnswer": "b",
@@ -47,30 +47,30 @@
 
  
     {
-      "question": "4. During the simulator activity, increasing the continuous growth rate (r) while keeping all other parameters constant would most likely result in:",
+      "question": "4. What can we predict using the mathematical model?",
       "answers": {
-        "a": "Slower population growth",
-        "b": "Faster exponential increase in population size",
-        "c": "A decrease in the initial population",
-        "d": "Population extinction"
+        "a": "Dynamics of biotic invasions.",
+        "b": "Growth rate of a population.",
+        "c": "Dispersal rate of a population.",
+        "d": "Size of the habitat."
       },
       
-      "correctAnswer": "b",
+      "correctAnswer": "a",
       "difficulty": "beginner"
     },
 
 
 
     {
-      "question": "5. In the simulator, what is the purpose of changing the initial population size (N₀)?",
+      "question": "5. In the mathematical model, over a time there will be increase in?",
       "answers": {
-        "a": "To modify the carrying capacity",
-        "b": "To change the starting number of individuals in the simulation",
-        "c": "To alter the death rate only",
-        "d": "To change the simulation time interval"
+        "a": "Density of the population.",
+        "b": "Size of the habitat.",
+        "c": "Both habitat and population.",
+        "d": "None of the above."
       },
      
-      "correctAnswer": "b",
+      "correctAnswer": "a",
       "difficulty": "beginner"
     }
   ]
