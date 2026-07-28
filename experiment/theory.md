@@ -62,3 +62,94 @@ Consider that we are going to study the spread of Asian long horned beetle when 
  
 
 Assume that a population in the habitat is represented with hab_pop. This hab_pop is a square matrix containing equal number of rows and columns. The (i,j)th cell in the matrix indicates the number of individuals existing at a particular habitat size and at a particular year. Consider the initial population in the habitat be the initial pest population density. At each time step, with increase in size of the habitat the number of individuals formed can be known by multiplying population growth rate with pest population density in the hab_pop matrix to generate the number of individuals resulting in each year of their spread.
+
+<p align="center">
+<img src="images/t1.jpg" title="" />
+</p>
+ 
+&nbsp;
+
+ 
+
+Where, n is the length of the habitat. Applying the growth rate of the population, we calculate the number of individuals to be formed in that year. Let habitat_size be represented with hab_size which indicates proportionately increasing habitat size of the habitat.
+
+
+By using the above equation, we calculate the number of individuals formed in that particular year with that growth rate of the population. After this equation, the matrix looks like this:
+
+
+<p align="center">
+<img src="images/t2.jpg" title="" />
+</p>
+ 
+&nbsp;
+
+Now, we take into account another important factor in the spread of this pest, i.e., dispersal rate of the population represented with d in the equations for simplicity. As previously mentioned the spread of the pest population also depends on dispersal rate. The more the dispersal rate, the more the spread of the pest and if it is controlled the spread of the pest can also be controlled. Taking that into account, in the below equation we calculate the number of individuals after the dispersal as:
+
+<p align="center">
+<img src="images/t3.png" title="" />
+</p>
+ 
+&nbsp;
+
+
+After applying the above mentioned equation, let us assume that the number of individuals formed are represented in another population matrix, say new_hab. This matrix is also similar to hab_pop matrix with the same number of rows and columns. This equation is applied only when the size of the habitat is:
+
+
+<p align="center">
+<img src="images/t4.jpg" title="" />
+</p>
+ 
+&nbsp;
+
+Now, apply the below equation to calculate the number of individuals when the habitat size is from 2 to length of habitat (hablen)-1.
+
+<p align="center">
+<img src="images/t5.png" title="" />
+</p>
+ 
+&nbsp;
+
+After applying the above equation the new_hab matrix looks like this:
+
+
+<p align="center">
+<img src="images/t6.jpg" title="" />
+</p>
+ 
+&nbsp;
+
+Now, let us apply the below equation to calculate the number of individuals when the size of the habitat is equal to length of the habitat.
+
+<p align="center">
+<img src="images/t7.jpg" title="" />
+</p>
+ 
+&nbsp;
+
+There would be no individuals formed as indicated in the hab_pop matrix that when the size of the habitat equals the length of the habitat, no individuals would be formed.
+
+ 
+
+The above shown results are shown only for the first year of the species establishment. If we want to see the species establishment after 50 years, repeat the above calculations 50 times. And for all the above equations calculate the number of individuals formed each year. But, we would like to see the spread of this pest over a period of time. So, we identify the positions in the hab_pop matrix where the value is less than the value of estab and store it in a matrix. Now, we identify the least value in the available values in the matrix during each run and store it in another matrix named spread. Spread matrix contains an initial value of 1 and during each year it appends the values into it as shown below. This is the matrix used to plot the spread of the pest over a period of time.
+
+
+<p align="center">
+<img src="images/t8.jpg" title="" />
+</p>
+ 
+&nbsp;
+So, now we plot the values in the matrix against the number of years. The plot shows us the spread of the pest (in kilometers) over a period of time (in years).
+
+&nbsp;
+
+#### Advantages:
+Though there are not much advantages reported due to its devastating effects, yet it helps in "recycling process" by infesting dying or recently dead wood and converting them into potential wood sources for other organisms contributing to soil creation and enrichment.
+
+&nbsp;
+
+#### Disadvantages:
+ 
+The Asian long horned beetle has the potential to cause more damage than Dutch elm disease, chestnut blight, and gypsy moths combined, destroying millions of acres of America's treasured hardwoods, including national forests and backyard trees. The beetle has the potential to damage such industries as lumber, maple syrup, nursery, commercial fruit and tourism accumulating over $41 billion in losses.
+ 
+
+Asian long horned beetle has the potential to alter North American Ecosystems, due to its tree killing and polyphagous habits and potential for widespread distribution on the continent.
