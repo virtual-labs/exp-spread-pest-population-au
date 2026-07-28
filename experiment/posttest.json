@@ -3,26 +3,41 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "In a continuous population growth model, population growth is primarily determined by:",
+      "question": "1. The Asian long-horned beetle primarily damages trees by:",
       "answers": {
-        "a": "Carrying capacity (K)",
-        "b": "Instantaneous per capita growth rate (r)",
-        "c": "Competition coefficient (α)",
-        "d": "Colonization rate (c)"
+        "a": "Feeding only on leaves",
+        "b": "Consuming flowers and fruits",
+        "c": "Boring into the heartwood and tunnelling through healthy tissues",
+        "d": "Feeding only on dead wood"
       },
  
-      "correctAnswer": "b",
+      "correctAnswer": "c",
       "difficulty": "beginner"
     },   
 
 
     {
-      "question": "2. The geometric growth factor (R) in the discrete population growth model is calculated as:",
+      "question": "2. In the simulator, the establishment threshold represents the following:",
       "answers": {
-        "a": "Birth rate + Death rate",
-        "b": "Birth rate − Death rate",
-        "c": "1 + (Birth rate − Death rate)",
-        "d": "Birth rate × Death rate"
+        "a": "The maximum population size supported by the habitat",
+        "b": "The minimum number of individuals required to establish a viable population",
+        "c": "The total number of habitat cells",
+        "d": "The annual mortality rate of the pest"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+
+
+    
+    {
+      "question": "3. What is the primary effect of increasing the dispersal rate (d) in the simulator?",
+      "answers": {
+        "a": "The pest spreads more slowly across the habitat.",
+        "b": "The pest population becomes extinct immediately.",
+        "c": "The pest spreads more rapidly through the habitat.",
+        "d": "The habitat length decreases."
       },
       
       "correctAnswer": "c",
@@ -30,29 +45,14 @@
     },
 
 
-    
-    {
-      "question": "3. What is meant by exponential population growth? ",
-      "answers": {
-        "a": "Population growth limited by carrying capacity",
-        "b": "Population growth at a constant percentage rate when resources are unlimited",
-        "c": "Population growth controlled by predator abundance",
-        "d": "Population growth that eventually becomes zero"
-      },
-      
-      "correctAnswer": "b",
-      "difficulty": "beginner"
-    },
-
-
  
     {
-      "question": "4. During the simulator activity, increasing the continuous growth rate (r) while keeping all other parameters constant would most likely result in:",
+      "question": "4. Why are mathematical models useful for studying biological invasions?",
       "answers": {
-        "a": "Slower population growth",
-        "b": "Faster exponential increase in population size",
-        "c": "A decrease in the initial population",
-        "d": "Population extinction"
+        "a": "They eliminate the need for field observations.",
+        "b": "They help predict invasion dynamics and evaluate the effects of different ecological parameters on pest spread.",
+        "c": "They are used only for identifying invasive species.",
+        "d": "They measure only the genetic diversity of invasive populations."
       },
       
       "correctAnswer": "b",
@@ -62,15 +62,15 @@
 
 
     {
-      "question": "5. In the simulator, what is the purpose of changing the initial population size (N₀)?",
+      "question": "5. Which simulator parameter determines the distance over which the invasion is evaluated?",
       "answers": {
-        "a": "To modify the carrying capacity",
-        "b": "To change the starting number of individuals in the simulation",
-        "c": "To alter the death rate only",
-        "d": "To change the simulation time interval"
+        "a": "Initial pest density",
+        "b": "Population growth rate",
+        "c": "Length of habitat",
+        "d": "Establishment threshold"
       },
      
-      "correctAnswer": "b",
+      "correctAnswer": "c",
       "difficulty": "beginner"
     }
   ]
