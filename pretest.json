@@ -1,0 +1,77 @@
+
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "What do invasive species include?",
+      "answers": {
+        "a": "Mostly non-native species.",
+        "b": "Mostly native species.",
+        "c": "Both native and non-native species.",
+        "d": "None of the above."
+      },
+ 
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },   
+
+
+    {
+      "question": "2. Why is it difficult to identify the invasion by Asian Long Horned Beetle at an early stage?",
+      "answers": {
+        "a": "They come only at night (nocturnal species)",
+        "b": "They hide in the crevices of the trees.",
+        "c": "They burrow deep inside the heartwood of a tree.",
+        "d": "They are too small to identify with naked eye."
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+
+
+    
+    {
+      "question": "3. How was the Asian Long Horned Beetle transported from China to North America?",
+      "answers": {
+        "a": "Through shipping goods.",
+        "b": "Through wood packing material.",
+        "c": "Through natural dispersal.",
+        "d": "None."
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+
+
+ 
+    {
+      "question": "4. What can we predict using the mathematical model?",
+      "answers": {
+        "a": "Dynamics of biotic invasions.",
+        "b": "Growth rate of a population.",
+        "c": "Dispersal rate of a population.",
+        "d": "Size of the habitat."
+      },
+      
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+
+
+
+    {
+      "question": "5. In the mathematical model, over a time there will be increase in?",
+      "answers": {
+        "a": "Density of the population.",
+        "b": "Size of the habitat.",
+        "c": "Both habitat and population.",
+        "d": "None of the above."
+      },
+     
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    }
+  ]
+}

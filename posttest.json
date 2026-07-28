@@ -1,0 +1,77 @@
+
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. The Asian long-horned beetle primarily damages trees by:",
+      "answers": {
+        "a": "Feeding only on leaves",
+        "b": "Consuming flowers and fruits",
+        "c": "Boring into the heartwood and tunnelling through healthy tissues",
+        "d": "Feeding only on dead wood"
+      },
+ 
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },   
+
+
+    {
+      "question": "2. In the simulator, the establishment threshold represents the following:",
+      "answers": {
+        "a": "The maximum population size supported by the habitat",
+        "b": "The minimum number of individuals required to establish a viable population",
+        "c": "The total number of habitat cells",
+        "d": "The annual mortality rate of the pest"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+
+
+    
+    {
+      "question": "3. What is the primary effect of increasing the dispersal rate (d) in the simulator?",
+      "answers": {
+        "a": "The pest spreads more slowly across the habitat.",
+        "b": "The pest population becomes extinct immediately.",
+        "c": "The pest spreads more rapidly through the habitat.",
+        "d": "The habitat length decreases."
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+
+
+ 
+    {
+      "question": "4. Why are mathematical models useful for studying biological invasions?",
+      "answers": {
+        "a": "They eliminate the need for field observations.",
+        "b": "They help predict invasion dynamics and evaluate the effects of different ecological parameters on pest spread.",
+        "c": "They are used only for identifying invasive species.",
+        "d": "They measure only the genetic diversity of invasive populations."
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+
+
+
+    {
+      "question": "5. Which simulator parameter determines the distance over which the invasion is evaluated?",
+      "answers": {
+        "a": "Initial pest density",
+        "b": "Population growth rate",
+        "c": "Length of habitat",
+        "d": "Establishment threshold"
+      },
+     
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    }
+  ]
+}
